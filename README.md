@@ -1,6 +1,10 @@
 # MetaFormer and CNN Hybrid Model for Polyp Image Segmentation
 Authors : [Hyunnam Lee](mailto:hyunnamlee@gmail), [Joohan Yoo](mailto:)
 
+This is the official implementation.
+
+## Introduction
+Transformer-based methods have become dominant in the medical image research field since the Vision Transformer achieved superior performance. Although transformer-based approaches have resolved long-range dependency problems inherent in Convolutional Neural Network (CNN) methods, they struggle to capture local detail information. Recent research focuses on the robust combination of local detail and semantic information. To address this problem, we propose a novel transformer-CNN hybrid network named RAPUNet. The proposed approach employs MetaFormer as the transformer backbone and introduces a custom convolutional block, RAPU (Residual and Atrous Convolution in Parallel Unit), to enhance local features and alleviate the combination problem of local and global features. We evaluate the segmentation performance of RAPUNet on popular benchmarking datasets for polyp segmentation, including Kvasir-SEG, CVC-ClinicDB, CVC-ColonDB, EndoScene-CVC300, and ETIS-LaribPolypDB. Experimental results show that our model achieves competitive performance in terms of mean Dice and mean IoU. Particularly, RAPUNet outperforms state-of-the-art methods on the CVC-ClinicDB dataset. 
 ## RAPUNet Architecture
 <img src="lee1.jpg" width="700">
 
@@ -30,7 +34,7 @@ You can also download Train/Test datasets seperated by Pranet
 
 ## Result
 ### Qualitative Results
-<img src="lresults_comparison.png" width="700">
+<img src="results_comparison.png" width="700">
 
 ## Citation
 
