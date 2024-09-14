@@ -2,7 +2,7 @@
 Authors : [Hyunnam Lee](mailto:hyunnamlee@gmail), [Joohan Yoo](mailto:)
 
 ## RAPUNet Architecture
-![RAPUNet](lee1.pdf)
+![RAPUNet](lee1.jpg)
 
 ## RAPU Component
 ![RAPU component](lee2.pdf)
