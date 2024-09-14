@@ -5,7 +5,7 @@ Authors : [Hyunnam Lee](mailto:hyunnamlee@gmail), [Joohan Yoo](mailto:)
 ![RAPUNet](lee1.jpg)
 
 ## RAPU Component
-![RAPU component](lee2.pdf)
+![RAPU component](RAPU2.png)
 
 ## Running the project
 
