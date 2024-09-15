@@ -65,10 +65,11 @@ model.compile(optimizer=opts, loss=dice_metric_loss) #BCE, metric, optimizer, op
 model.summary()
 print(get_flops(model))
 
-data_path = "../data/Train_Clinic/" #Train_kvasir/ #TrainDataset Train_Clinic/ # Add the path to your data directory
-test_path = "../data/TestDataset/CVC-ClinicDB/"
+data_path = "../data/Train_Clinic/"  # Add the path to your train data directory
+test_path = "../data/TestDataset/CVC-ClinicDB/" # Add the path to your test data directory
 X, Y = ImageLoader2D.load_data(img_size, img_size, -1, 'kvasir', data_path)
 
+# use data split train/valid/test as 0.8/0.1/0.1
 #x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.1, shuffle= True, random_state = seed_value)
 #x_train, x_valid, y_train, y_valid = train_test_split(x_train, y_train, test_size=0.111, shuffle= True, random_state = seed_value)
 
