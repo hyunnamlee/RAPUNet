@@ -62,8 +62,9 @@ min_loss_for_saving = 0.1
 model = RAPUNet.create_model(img_height=img_size, img_width=img_size, input_chanels=3, out_classes=1, starting_filters=filters)  
 model.compile(optimizer=opts, loss=dice_metric_loss) #BCE, metric, optimizer, opts
 
-model.summary()
-print(get_flops(model))
+# computational complexity
+# model.summary()
+# print(get_flops(model))
 
 data_path = "../data/Train_Clinic/"  # Add the path to your train data directory
 test_path = "../data/TestDataset/CVC-ClinicDB/" # Add the path to your test data directory
@@ -212,7 +213,7 @@ accuracy_valid = accuracy_score(np.ndarray.flatten(np.array(y_valid, dtype=bool)
 
 print("Accuracy finished")
 
-final_file = 'results_' + model_type + '_' + str(filters) + '_' + dataset_type + 'CAformer_clean_et.txt'
+final_file = 'results_' + model_type + '_' + dataset_type + '.txt'
 print(final_file)
 
 
