@@ -30,7 +30,13 @@ You can also download Train/Test datasets seperated by Pranet
 - [Google Drive Link (399.5MB)](https://drive.google.com/file/d/1YiGHLw4iTvKdvbT6MgwO9zcCv8zJ_Bnb/view?usp=sharing). It contains two sub-datasets: Kvasir-SEG (900 train samples) and CVC-ClinicDB (550 train samples).
 
 ### Training
+```pyhon train.py```
+
+### Test with pretrained model
 ```pyhon test.py```
+
+### Generate predict images
+```pyhon predict_img.py```
 
 ## Result
 ### Qualitative Results
