@@ -43,6 +43,11 @@ You can also download Train/Test datasets seperated by Pranet
 ### Qualitative Results
 <img src="results_comparison.png" width="700">
 
+![CVC-ClinicDB](Clinic.jpeg)
+![Kvasir_SEG](kvasir.jpeg)
+![ETIS](ETIS.jpeg)
+![CVC-Colon](CVCDolon.jpeg)
+
 ## Pretrained Model
  - Trained on Kvasir-SEG: [Naver Link(504.2M)](http://naver.me/5GpcKEUa)
  - Trained on CVC-ClinincDB: [Naver Link(504.2M)](http://naver.me/GJTZxzOl)
