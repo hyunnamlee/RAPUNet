@@ -45,7 +45,7 @@ learning_rate_fn = tf.keras.optimizers.schedules.PolynomialDecay(
     power=0.2)
 
 opts = tfa.optimizers.AdamW(learning_rate = 1e-4, weight_decay = learning_rate_fn)
-b_size = 2
+b_size = 8
 
 ct = datetime.now()
 
