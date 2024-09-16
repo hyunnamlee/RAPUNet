@@ -13,6 +13,7 @@ Transformer-based methods have become dominant in the medical image research fie
 
 ## Running the project
 ### Implementation Environments
+Ubuntu 20.04
 Python 3.8.10
 Tensorflow 2.13.0
 
@@ -42,6 +43,12 @@ You can also download Train/Test datasets seperated by Pranet
 ### Qualitative Results
 <img src="results_comparison.png" width="700">
 
+## Pretrained Model
+ - Trained on Kvasir-SEG: [Naver Link(504.2M)](http://naver.me/5GpcKEUa)
+ - Trained on CVC-ClinincDB: [Naver Link(504.2M)](http://naver.me/GJTZxzOl)
+ - Trained on Kvasir-SEG and CVC-Clinic: [Naver Link(504.2M)](http://naver.me/502B3D8U)
+ - Predict Image: [Naver Link(25M)](http://naver.me/FafeIgI8)
+ - 
 ## Citation
 
 ## License
