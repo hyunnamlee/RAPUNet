@@ -40,13 +40,15 @@ You can also download Train/Test datasets seperated by Pranet
 ```pyhon predict_img.py```
 
 ## Result
+### Performance Comparison
+<img src="Clinic.jpeg" width="400">
+<img src="Kvasir.jpeg" width="400">
+<img src="ETIS.jpeg" width="400">
+<img src="CVCColon.jpeg" width="400">
+<img src="unseen.jpeg" width="500">
+
 ### Qualitative Results
 <img src="results_comparison.png" width="700">
-
-![CVC-ClinicDB](Clinic.jpeg)
-![Kvasir_SEG](kvasir.jpeg)
-![ETIS](ETIS.jpeg)
-![CVC-Colon](CVCDolon.jpeg)
 
 ## Pretrained Model
  - Trained on Kvasir-SEG: [Naver Link(504.2M)](http://naver.me/5GpcKEUa)
