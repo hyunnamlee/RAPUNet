@@ -1,5 +1,5 @@
 # MetaFormer and CNN Hybrid Model for Polyp Image Segmentation
-Authors : [Hyunnam Lee](mailto:hyunnamlee@gmail), [Joohan Yoo](mailto:)
+Authors : [Hyunnam Lee](mailto:hyunnamlee@gmail), [Joohan Yoo](mailto:unchinto@semyung.ac.kr)
 
 This is the official implementation.
 
