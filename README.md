@@ -6,10 +6,10 @@ This is the official implementation.
 ## Introduction
 Transformer-based methods have become dominant in the medical image research field since the Vision Transformer achieved superior performance. Although transformer-based approaches have resolved long-range dependency problems inherent in Convolutional Neural Network (CNN) methods, they struggle to capture local detail information. Recent research focuses on the robust combination of local detail and semantic information. To address this problem, we propose a novel transformer-CNN hybrid network named RAPUNet. The proposed approach employs MetaFormer as the transformer backbone and introduces a custom convolutional block, RAPU (Residual and Atrous Convolution in Parallel Unit), to enhance local features and alleviate the combination problem of local and global features. We evaluate the segmentation performance of RAPUNet on popular benchmarking datasets for polyp segmentation, including Kvasir-SEG, CVC-ClinicDB, CVC-ColonDB, EndoScene-CVC300, and ETIS-LaribPolypDB. Experimental results show that our model achieves competitive performance in terms of mean Dice and mean IoU. Particularly, RAPUNet outperforms state-of-the-art methods on the CVC-ClinicDB dataset. 
 ## RAPUNet Architecture
-<img src="lee1.jpg" width="700">
+<img src="imgs/RAPUNet.jpg" width="700">
 
 ## RAPU Component
-![RAPU component](RAPU2.png)
+![RAPU component](imgs/RAPU2.png)
 
 ## Running the project
 ### Implementation Environments
@@ -39,14 +39,14 @@ You can also download Train/Test datasets seperated by Pranet
 
 ## Result
 ### Performance Comparison
-<img src="Clinic.jpeg" width="400">
-<img src="Kvasir.jpeg" width="400">
-<img src="ETIS.jpeg" width="400">
-<img src="CVCColon.jpeg" width="400">
-<img src="unseen.jpeg" width="500">
+<img src="imgs/Clinic.jpeg" width="400">
+<img src="imgs/Kvasir.jpeg" width="400">
+<img src="imgs/ETIS.jpeg" width="400">
+<img src="imgs/CVCColon.jpeg" width="400">
+<img src="imgs/unseen.jpeg" width="500">
 
 ### Qualitative Results
-<img src="results_comparison.png" width="700">
+<img src="imgs/results_comparison.png" width="700">
 
 ## Pretrained Model
  - Trained on Kvasir-SEG: [Naver Link(504.2M)](http://naver.me/5GpcKEUa)
