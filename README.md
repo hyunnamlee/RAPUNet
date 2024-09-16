@@ -53,7 +53,7 @@ You can also download Train/Test datasets seperated by Pranet
  - Trained on CVC-ClinincDB: [Naver Link(504.2M)](http://naver.me/GJTZxzOl)
  - Trained on Kvasir-SEG and CVC-Clinic: [Naver Link(504.2M)](http://naver.me/502B3D8U)
  - Predict Image: [Naver Link(25M)](http://naver.me/FafeIgI8)
- - 
+   
 ## Citation
 
 ## License
