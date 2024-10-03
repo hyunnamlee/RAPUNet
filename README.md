@@ -3,6 +3,14 @@ Authors : [Hyunnam Lee](mailto:hyunnamlee@gmail), [Joohan Yoo](mailto:unchinto@s
 
 This is the official implementation.
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metaformer-and-cnn-hybrid-model-for-polyp/medical-image-segmentation-on-cvc-clinicdb)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-clinicdb?p=metaformer-and-cnn-hybrid-model-for-polyp)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metaformer-and-cnn-hybrid-model-for-polyp/medical-image-segmentation-on-kvasir-seg)](https://paperswithcode.com/sota/medical-image-segmentation-on-kvasir-seg?p=metaformer-and-cnn-hybrid-model-for-polyp)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metaformer-and-cnn-hybrid-model-for-polyp/medical-image-segmentation-on-cvc-colondb)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=metaformer-and-cnn-hybrid-model-for-polyp)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metaformer-and-cnn-hybrid-model-for-polyp/medical-image-segmentation-on-etis)](https://paperswithcode.com/sota/medical-image-segmentation-on-etis?p=metaformer-and-cnn-hybrid-model-for-polyp)
+
+
+
+
 ## Introduction
 Transformer-based methods have become dominant in the medical image research field since the Vision Transformer achieved superior performance. Although transformer-based approaches have resolved long-range dependency problems inherent in Convolutional Neural Network (CNN) methods, they struggle to capture local detail information. Recent research focuses on the robust combination of local detail and semantic information. To address this problem, we propose a novel transformer-CNN hybrid network named RAPUNet. The proposed approach employs MetaFormer as the transformer backbone and introduces a custom convolutional block, RAPU (Residual and Atrous Convolution in Parallel Unit), to enhance local features and alleviate the combination problem of local and global features. We evaluate the segmentation performance of RAPUNet on popular benchmarking datasets for polyp segmentation, including Kvasir-SEG, CVC-ClinicDB, CVC-ColonDB, EndoScene-CVC300, and ETIS-LaribPolypDB. Experimental results show that our model achieves competitive performance in terms of mean Dice and mean IoU. Particularly, RAPUNet outperforms state-of-the-art methods on the CVC-ClinicDB dataset. 
 ## RAPUNet Architecture
