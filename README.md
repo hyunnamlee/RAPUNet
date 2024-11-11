@@ -21,7 +21,7 @@ Transformer-based methods have become dominant in the medical image research fie
 
 ## Running the project
 ### Implementation Environments
-Ubuntu 20.04, Python 3.8.10, Tensorflow 2.13.0
+Ubuntu 20.04, Python 3.8.10, Tensorflow 2.13.0 keras_cv_attention_models 1.3.9
 
 ### Data-Sets
 
